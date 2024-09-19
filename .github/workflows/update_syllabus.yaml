@@ -1,0 +1,45 @@
+name: Sync README to Canvas Syllabus
+
+on:
+  push:
+    paths:
+      - 'README.md'
+
+jobs:
+  convert_and_sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Convert README to HTML using GitHub API
+      id: convert
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        README_CONTENT=$(cat README.md)
+        PAYLOAD=$(jq --null-input --arg body "$README_CONTENT" '{"text": $body, "mode": "gfm"}')
+        README_HTML=$(curl -s -X POST -H "Authorization: Bearer $GITHUB_TOKEN" \
+                               -H "Content-Type: application/json" \
+                               -d "$PAYLOAD" \
+                               https://api.github.com/markdown)
+                               
+        echo "$README_HTML" > README.html
+
+    - name: Upload HTML to Canvas
+      env:
+        CANVAS_API_TOKEN: ${{ secrets.CANVAS_SECRET }}
+      run: |
+        CANVAS_URL='https://canvas.northwestern.edu'
+        COURSE_ID=216743
+        API_TOKEN=$CANVAS_API_TOKEN
+        HTML_CONTENT=$(<README.html)
+        
+        JSON_PAYLOAD=$(jq -n \
+                          --arg html "$HTML_CONTENT" \
+                          '{"course": {"syllabus_body": $html}}')
+
+        curl -X PUT "$CANVAS_URL/api/v1/courses/$COURSE_ID" \
+            -H "Authorization: Bearer $API_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data "$JSON_PAYLOAD"

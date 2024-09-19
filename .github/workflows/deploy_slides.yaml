@@ -1,0 +1,57 @@
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'lectures/**/slides.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Fetches all history for all branches and tags
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+          
+      - name: Setup Git User
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      
+      # Checkout to main to work with the latest markdown files
+      - name: Checkout main branch
+        run: git checkout main 
+
+      # Ensure all dependencies are installed
+      - name: Install reveal-md
+        run: npm i -g reveal-md@6.1.0
+      
+      # Generate the static content based on markdown files in main
+      - name: Generate Static Files
+        run: |
+          for file in $(find lectures -name '*.md'); do
+            dir=$(dirname "$file")
+            reveal-md "$file" --static "$dir" --css lectures/assets/style.css
+          done
+
+      # _ doesn't work with github pages.
+      - name: Fix assets files
+        run: |
+          echo TODO
+
+      # Switch to pages branch to update it with generated content
+      - name: Checkout to pages branch and push new content
+        run: |
+          
+          git add lectures/*
+          git commit -m "Update static content"
+          git checkout pages
+          git reset --hard main
+          git push origin pages --force
