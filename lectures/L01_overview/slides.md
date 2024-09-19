@@ -12,8 +12,8 @@ revealOptions:
   <div class="c1 col-centered">
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
-  # Introduction to the Data Science Pipeline
-  ## L.01 | Overview & Logistics.
+  # Data Science
+  ## L.01 | Overview & Logistics
 
   </div>
   </div>
@@ -26,16 +26,12 @@ revealOptions:
 
 ## What is Data Science?
 
-<div class = "col-wrapper">
-  <div class="c1 col-centered" style = "width: 50%; align-items: center;">
-    Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
-  </div>
-  <div class="c2 col-centered" style = "width: 50%; align-items: center; text-align: center;">
-    <div>
-    <img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
-    <p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
-    </div>
-  </div>
+
+  Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
+
+<div style="text-align:center">
+<img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
+<p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
 </div>
 
 <!--s-->
@@ -60,7 +56,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%">
 
-[Canvas](https://canvas.northwestern.edu/courses/216743)
+### Canvas [&#x1F517;](https://canvas.northwestern.edu/courses/216743)
   - Syllabus (with links!)
   - Announcements
   - Grades
@@ -72,7 +68,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 </div>
 <div class="c2" style = "width: 50%">
 
-[GitHub Repository](https://github.com/drc-cs/FALL24-CS326)
+### GitHub Repository [&#x1F517;](https://github.com/drc-cs/FALL24-MSAI339)
   - Syllabus (with links!)
   - Lecture slides
   - Homework assignments
@@ -85,7 +81,9 @@ Both Canvas and GitHub will be used extensively throughout this course.
 
 ## Lecture Breakdown
 
-Lectures will be broken down into theory and applications. Attendance at lectures is mandatory and in your best interests! Homework will be assigned at the end of each lecture.
+Lectures will be broken down into theory and applications.
+
+We will use **PollEverywhere** to ensure engagement and understanding during the lecture component, you will not be graded on your responses.
 
 | Component | Duration | Description |
 | --- | --- | --- |
@@ -98,7 +96,9 @@ Lectures will be broken down into theory and applications. Attendance at lecture
 
 ## Attendance
 
-Attendance is mandatory. You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
+Attendance at lectures is **mandatory** and in your best interest!
+
+You may miss up two lectures without penalty. After that, you will lose 1% of your final grade for each additional missed lecture without a valid excuse.
 
 <!--s-->
 
@@ -176,7 +176,7 @@ If you follow along with the lectures and homeworks, you will be well-prepared f
 
 <!--s-->
 
-## Academic Integrity [[link]](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
+## Academic Integrity [&#x1F517;](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
 
 ### Homeworks
 
@@ -334,17 +334,39 @@ Let's do the first homework together.
  ## Homework Demonstration
 
 </div>
+
 <!--s-->
 
 ## H.01 | Submitting Homework
 
-Homeworks will be submitted via Gradescope. Programmatic and free response submissions are handled separately.
+You will submit your homework using the provided submission script. 
 
-### Programmatic Questions
-For programmatic assignments, you will be graded soley on the contents of the <span class="code-span">.py</span> file. There is no need to submit the <span class="code-span">.ipynb</span> file. Please upload your assignments directly to [Gradescope](https://canvas.northwestern.edu/courses/216743/external_tools/52717) and they will be autograded.
+But first, you need a username (your **northwestern** email) and password!
 
-### Free Response Questions
-For free response assignments, you can enter your responses directly into the [Gradescope](https://canvas.northwestern.edu/courses/216743/external_tools/52717). interface. Free response questions will be graded manually, so please give us 1-2 weeks to do so.
+```bash
+python account.py --create-account
+```
+
+Once you have a username and password, you can submit your completed homework. You should receive your score or feedback within a few seconds, but this may take longer as the homeworks get more involved.
+
+```bash
+python submit.py --homework H.01/hello_world.py --username your_username --password your_password
+```
+
+You can save your username and password as environment variables so you don't have to enter them every time (or expose them in your notebooks)!
+
+```bash
+export AG_USERNAME="your_username"
+export AG_PASSWORD="your_password"
+```
+
+<!--s-->
+
+## H.01 | Homework Grading
+
+The highest score will be recorded, so long as it is submitted before the deadline! You have 3 attempts for every homework. 
+
+Late homeworks will be penalized 10% per day.
 
 <!--s-->
 

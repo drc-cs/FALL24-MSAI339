@@ -34,11 +34,23 @@
 .backgrounds {
     /* background: linear-gradient(to bottom, #ffffff 0%, #ffffff 98%, #F3EEFF 100%); */
     /* background image */
+    position: relative;
     background-color: #ffffff;
     /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23f9f9ff' fill-opacity='1' d='M0%2C192L80%2C181.3C160%2C171%2C320%2C149%2C480%2C128C640%2C107%2C800%2C85%2C960"); */
-    
-    
     background-size: 100% 100%;
+}
+
+.backgrounds::after {
+  content: "Northwestern University | MSAI 339 | Do Not Share"; /* The text to display */
+  position: absolute; /* Position it absolutely within the .backgrounds element */
+  bottom: 10px; /* Distance from the bottom, adjust as needed */
+  left: 50%; /* Center horizontally by setting the left to 50% */
+  transform: translateX(-50%); /* Adjust for the 50% left position to perfectly center */
+  font-size: 0.25em; /* Adjust the font size as needed */
+  font-weight: bold;
+  color: rgba(22, 22, 22, 0.488); /* Adjust text color as needed */
+  padding: 5px 10px; /* Optional: Add padding for better readability */
+  text-align: center;
 }
 
 .header-slide {
@@ -58,16 +70,16 @@
 }
 
 .reveal a {
-    color: #7B2A84;
+    color: #6f40b5;
     text-decoration: none;
 }
 
 .reveal a:link {
-    color: #7B2A84;
+    color: #6f40b5;
   }
   
 .reveal a:visited {
-color: #7B2A84;
+color: #6f40b5;
 }
 
 .reveal a:hover {
@@ -75,7 +87,7 @@ color: rgb(77, 73, 75);
 }
 
 .reveal a:active {
-color: #7B2A84;
+color: #6f40b5;
 }
 
 .reveal h1 {
