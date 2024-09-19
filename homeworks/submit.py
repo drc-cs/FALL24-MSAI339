@@ -9,7 +9,7 @@ import os
 CONFIG = {"apiKey": "AIzaSyDp0FpJO01nRWeW4ZWZHet8V_Gcvl0xLAc"} # Fine to be public.
 LOGIN_USER_URL = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={CONFIG['apiKey']}"
 DB_URL = "https://drc-cs-9a3f6-default-rtdb.firebaseio.com/"
-COURSE = "CS326"
+COURSE = "MSAI339"
 
 def login(email: str, password: str) -> dict:
     """Login the user."""
