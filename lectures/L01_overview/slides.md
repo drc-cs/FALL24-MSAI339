@@ -24,6 +24,23 @@ revealOptions:
 
 <!--s-->
 
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+
+  # Welcome to MSAI 339.
+  ## Please check in using PollEverywhere.
+  Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
 ## What is Data Science?
 
 

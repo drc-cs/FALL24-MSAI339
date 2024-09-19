@@ -34,9 +34,9 @@
 .backgrounds {
     /* background: linear-gradient(to bottom, #ffffff 0%, #ffffff 98%, #F3EEFF 100%); */
     /* background image */
-    position: relative;
+    /* position: relative; */
     background-color: #ffffff;
-    /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23f9f9ff' fill-opacity='1' d='M0%2C192L80%2C181.3C160%2C171%2C320%2C149%2C480%2C128C640%2C107%2C800%2C85%2C960"); */
+    /* background-image: url("https://storage.googleapis.com/slide_assets/background.png"); */
     background-size: 100% 100%;
 }
 
