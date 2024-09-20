@@ -422,7 +422,7 @@ df_interpolate = df.interpolate()
 
 <!--s-->
 
-## Data Cleaning | iClicker Question
+## Data Cleaning | Q.03
 
 You have streaming data that is occasionally dropping values. Which of the following methods would be appropriate to fill missing values when signal fails to update? 
 

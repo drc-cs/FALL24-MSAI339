@@ -37,7 +37,9 @@
     /* position: relative; */
     background-color: #ffffff;
     background-image: url("https://storage.googleapis.com/slide_assets/background_shape.svg");
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: left-top;
+    background-repeat: no-repeat;
 }
 
 .backgrounds::after {
