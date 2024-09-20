@@ -101,7 +101,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 
 Lectures will be broken down into theory and applications.
 
-We will use **PollEverywhere** to ensure engagement and understanding during the lecture component. You will not be graded on your responses.
+We will use **PollEverywhere** to ensure engagement and understanding during the lecture component. you will not be graded on your responses (just completion).
 
 | Component | Duration | Description |
 | --- | --- | --- |
