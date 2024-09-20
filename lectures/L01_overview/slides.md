@@ -165,7 +165,7 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 <!--s-->
 
-## GPT (The Talk)
+## LLMs (The Talk)
 
 <iframe src="https://lottie.host/embed/e7eb235d-f490-4ce1-877a-99114b96ff60/OFTqzm1m09.json" height = "100%" width = "100%"></iframe>
 
