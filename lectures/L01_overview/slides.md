@@ -286,11 +286,11 @@ Don't have <span class="code-span">git</span> installed? [[click-here]](https://
 
 <!--s-->
 
-## H.01 | VSCode
+## H.01 | Visual Studio Code (VSCode)
 
 All demonstrations will be in VSCode, which is a popular IDE. You're welcome to use any IDE you want, but we will be best equipped to help you if you use VSCode.
 
-Installation link: https://code.visualstudio.com/
+Don't have <span class="code-span">visual studio code</span> installed? [[click-here]](https://code.visualstudio.com/)
 
 After installing VSCode, you will need to install the Python extension: 
 
