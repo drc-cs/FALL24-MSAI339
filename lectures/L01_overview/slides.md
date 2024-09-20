@@ -18,6 +18,7 @@ revealOptions:
   </div>
   </div>
   <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 80%; padding-top: 30%">
+  
   <iframe src="https://lottie.host/embed/bd6c5b65-d724-4f97-882c-40f58367ea38/BIKhZdSeqW.json" height="100%" width = "100%"></iframe>
   </div>
 </div>
@@ -41,7 +42,7 @@ revealOptions:
 
 <!--s-->
 
-## What is Data Science?
+## Data Science | Introduction
 
 
   Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
@@ -53,7 +54,7 @@ revealOptions:
 
 <!--s-->
 
-## What is a Data Science Pipeline?
+## Data Science | Structure
 
 1. Data Source
 2. Data Exploration
@@ -62,7 +63,7 @@ revealOptions:
 5. Data Interpretation
 6. Data Action
 
-MSAI 339 will cover the **fundamentals** of each step of the data science pipeline. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
+MSAI 339 will cover the **fundamentals** of data science. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
 
 <!--s-->
 
@@ -100,7 +101,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 
 Lectures will be broken down into theory and applications.
 
-We will use **PollEverywhere** to ensure engagement and understanding during the lecture component, you will not be graded on your responses.
+We will use **PollEverywhere** to ensure engagement and understanding during the lecture component. You will not be graded on your responses.
 
 | Component | Duration | Description |
 | --- | --- | --- |
@@ -158,10 +159,15 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 - **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
 
-- **Platform**: A submission script has been provided to submit your homeworks, please see the first homework [README](https://github.com/drc-cs/cs326/tree/main/homeworks/H01) page for more information.
+- **Platform**: A submission script has been provided to submit your homeworks. Today we will run through an example of how to submit your first homework assignment.
 
 - **Collaboration**: You are encouraged to work with your peers on homeworks. However, you must submit your own work. Copying and pasting code from other sources will be detected and penalized.
 
+<!--s-->
+
+## GPT (The Talk)
+
+<iframe src="https://lottie.host/embed/e7eb235d-f490-4ce1-877a-99114b96ff60/OFTqzm1m09.json" height = "100%" width = "100%"></iframe>
 
 <!--s-->
 
@@ -183,13 +189,9 @@ Collective ambition and equal contribution is rewarded! A rubric will be posted 
 
 ## Quiz
 
-There will be one quiz at the end of this course. 
+There will be one quiz at the end of this course. The quiz will cover the theoretical and practical concepts covered in the course. You will have 75 minutes to complete it. 
 
-- **Coverage**: The quiz will cover the theoretical and practical concepts covered in the course through a mini-project challenge that you will have 75 minutes to complete. 
-
-- **Format**: The challenge will be styled in a format similar to an industry data science coding interview.
-
-If you follow along with the lectures and homeworks, you will be well-prepared for the quiz. The goal is to give you practical code-interview style experience, not trip you up on small details.
+If you follow along with the lectures and homeworks, you will be well-prepared. The goal is to give you practical experience, not trip you up on small details.
 
 <!--s-->
 
@@ -226,7 +228,7 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ### **Office Hours**
 
-- Time: 12:30-1:30PM on Tuesdays (after lecture)
+- Time: 1:30PM - 2:30PM on Thursdays (before lecture)
 - Location: Mudd 3510
 
 ### **Canvas Discussion**
@@ -259,7 +261,7 @@ Due: 10.01.2024
 
 We will be using Python for this course. Conda is a package manager that will help us install Python and other packages. 
 
-Link: https://docs.conda.io/en/latest/miniconda.html
+Don't have <span class="code-span">conda</span> installed? [[click-here]](https://docs.conda.io/en/latest/miniconda.html)
 
 <!--s-->
 
@@ -269,8 +271,8 @@ We will be using a public GitHub repository for this course. Enter the following
 
 
 ```bash
-git clone https://github.com/drc-cs/FALL2024-MSAI339.git
-cd FALL2024-MSAI339
+git clone https://github.com/drc-cs/FALL24-MSAI339.git
+cd FALL24-MSAI339
 ```
 
 We will be using a conda environment (msai339) for this course. 
@@ -308,7 +310,7 @@ Add the <span class="code-span">code</span> command to your PATH so you can open
 Restart your terminal and open the cloned repository in VSCode using the following command:
 
 ```bash
-code cs326
+code FALL24-MSAI339
 ```
 
 You should see the following folders:
@@ -341,7 +343,7 @@ Open the <span class="code-span">homeworks/</span> folder in VSCode. You should 
 
 - <span class="code-span">hello_world_narrative.ipynb</span>: This is a Jupyter notebook that provides a useful narrative for the homework and methods found in the <span class="code-span">hello_world.py</span> file.
 
-- <span class="code-span">hello_world_test.py</span>: This is the file that will be used to test your code. Future homeworks will not include this file, and this is for demonstration purposes only.
+- <span class="code-span">hello_world_test.py</span>: This is the file that will be used to test your code. It is only visible for the first homework assignment.
 
 Let's do the first homework together.
 
@@ -358,7 +360,7 @@ Let's do the first homework together.
 
 You will submit your homework using the provided submission script. 
 
-But first, you need a username (your **northwestern** email) and password!
+But first, you need a username (your **northwestern** email e.g. JaneDoe2024@u.northwestern.edu) and password!
 
 ```bash
 python account.py --create-account
@@ -383,7 +385,7 @@ export AG_PASSWORD="your_password"
 
 The highest score will be recorded, so long as it is submitted before the deadline! You have 3 attempts for every homework. 
 
-Late homeworks will be penalized 10% per day.
+Late homeworks will be penalized 10% per day, which amounts to ~1% of your final grade.
 
 <!--s-->
 
