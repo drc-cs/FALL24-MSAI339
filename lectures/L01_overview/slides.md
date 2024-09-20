@@ -48,8 +48,8 @@ revealOptions:
   Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
 
 <div style="text-align:center">
-<img src="https://cdn-images-1.medium.com/max/800/1*MuglQTETZNJCRp1iceE7-Q.png">
-<p><span style="font-size: 0.4em"> © Steven Geringer </span></p>
+<img src="https://images.ctfassets.net/piwi0eufbb2g/5Hdeb5PTf26EFdny0gZK3H/e47cbc2744c334ffefa58c5160e3b2d3/what_data_science_.jpg">
+<p style="text-align: center; font-size: 0.6em; color: grey;">Topcoder 2020</p>
 </div>
 
 <!--s-->
