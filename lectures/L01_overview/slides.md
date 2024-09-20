@@ -45,7 +45,7 @@ revealOptions:
 ## Data Science | Introduction
 
 
-  Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
+Data Science sits at the intersection of computer science, statistics, and domain expertise. It is the process of extracting knowledge and insights from data.
 
 <div class="col-centered" style="flex-direction: row; height: 70%">
 <img src="https://images.ctfassets.net/piwi0eufbb2g/5Hdeb5PTf26EFdny0gZK3H/e47cbc2744c334ffefa58c5160e3b2d3/what_data_science_.jpg">
@@ -240,9 +240,9 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out to via email if you are still stuck.
 
-- **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu
-- **Lingzhi Wang (TA)**: LingzhiWang2025@u.northwestern.edu
-- **Nathan Mo (PM)**: nmf0887@ads.northwestern.edu
+- **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
+- **JeongYoon Lee (TA)**: jeongyoonlee2024@u.northwestern.edu <br>
+- **Yiying Gao (TA)**: yiyinggao2024@u.northwestern.edu 
 
 <!--s-->
 
