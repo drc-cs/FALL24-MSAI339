@@ -363,7 +363,7 @@ You will submit your homework using the provided submission script.
 But first, you need a username (your **northwestern** email e.g. JaneDoe2024@u.northwestern.edu) and password!
 
 ```bash
-python account.py --create-account
+python account.py --create-account 
 ```
 
 Once you have a username and password, you can submit your completed homework. You should receive your score or feedback within a few seconds, but this may take longer as the homeworks get more involved.
