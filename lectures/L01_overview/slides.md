@@ -31,7 +31,7 @@ revealOptions:
 
   # Welcome to MSAI 339.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
@@ -101,7 +101,7 @@ Both Canvas and GitHub will be used extensively throughout this course.
 
 Lectures will be broken down into theory and applications.
 
-We will use **PollEverywhere** to ensure engagement and understanding during the lecture component. you will not be graded on your responses (just completion).
+We will use **PollEverywhere** to ensure engagement and understanding during the lecture component. You will not be graded on your responses (just completion).
 
 | Component | Duration | Description |
 | --- | --- | --- |
@@ -157,7 +157,7 @@ Homeworks are designed to reinforce the concepts covered in lecture. They will b
 
 - **Due**: Homework due dates are posted in the syllabus.
 
-- **Late Policy**: Late homeworks will lose 1 out of 10 points per day (1% of your final grade).
+- **Late Policy**: Late homeworks will lose 1 out of 8 points per day (1% of your final grade).
 
 - **Platform**: A submission script has been provided to submit your homeworks. Today we will run through an example of how to submit your first homework assignment.
 
@@ -228,7 +228,7 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ### **Office Hours**
 
-- Time: 1:30PM - 2:30PM on Thursdays (before lecture)
+- Time: 2:30PM - 3:20PM on Thursdays (before lecture)
 - Location: Mudd 3510
 
 ### **Canvas Discussion**

@@ -1,5 +1,5 @@
 ---
-title: CS 326
+title: MSAI 339
 separator: <!--s-->
 verticalSeparator: <!--s-->
 theme: serif
