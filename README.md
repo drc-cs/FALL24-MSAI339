@@ -150,4 +150,4 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
 **JeongYoon Lee (TA)**: jeongyoonlee2024@u.northwestern.edu <br>
-**Yiying Gao (TA)**: yiyinggao2024@u.northwestern.edu 
+**Yiying Gao (TA)**: yiyinggao2024@u.northwestern.edu
