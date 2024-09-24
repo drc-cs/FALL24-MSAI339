@@ -49,7 +49,6 @@ if __name__ == '__main__':
         username = input("Enter your email address:")
         password = getpass("Enter your password: ")
         repeat_password = getpass("Repeat your password: ")
-        course_identifier = input("Enter the course identifier: ")
 
         if password != repeat_password:
             print("Passwords do not match.")
