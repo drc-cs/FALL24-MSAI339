@@ -42,6 +42,40 @@ revealOptions:
 
 <!--s-->
 
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Survey
+  ## What are you looking forward to learning in MSAI 339?
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 60%; position: absolute;">
+
+  # Survey
+  ## Courses generally have a mix of theory and application. What are you *most* interested in?
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
 ## Data Science | Introduction
 
 
@@ -55,13 +89,6 @@ Data Science sits at the intersection of computer science, statistics, and domai
 <!--s-->
 
 ## Data Science | Structure
-
-1. Data Source
-2. Data Exploration
-3. Data Preprocessing
-4. Data Modeling
-5. Data Interpretation
-6. Data Action
 
 MSAI 339 will cover the **fundamentals** of data science. We will go for breadth, but you will be encouraged throughout the quarter to go into depth.
 
@@ -241,8 +268,8 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out via email if you are still stuck.
 
 - **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
-- **JeongYoon Lee (TA)**: jeongyoonlee2024@u.northwestern.edu <br>
-- **Yiying Gao (TA)**: yiyinggao2024@u.northwestern.edu 
+- **JeongYoon Lee (GA)**: jeongyoonlee2024@u.northwestern.edu <br>
+- **Yiying Gao (GA)**: yiyinggao2024@u.northwestern.edu 
 
 <!--s-->
 
