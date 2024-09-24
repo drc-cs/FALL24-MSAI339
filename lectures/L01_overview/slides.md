@@ -238,7 +238,7 @@ If you are feeling distressed or overwhelmed, please reach out for help. Student
 
 ### **Email**
 
-We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out to via email if you are still stuck.
+We are here to help you! Please try the office hours and Canvas discussion first, but feel free to reach out via email if you are still stuck.
 
 - **Joshua D'Arcy (Instructor)**: joshua.darcy@northwestern.edu <br>
 - **JeongYoon Lee (TA)**: jeongyoonlee2024@u.northwestern.edu <br>
