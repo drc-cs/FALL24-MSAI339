@@ -39,6 +39,8 @@ revealOptions:
   </div>
 </div>
 
+<!--s-->
+
 <div class = "header-slide">
 
 # L.02 Data Sources
@@ -184,54 +186,6 @@ Don't collect data that you don't need. Definitely don't collect data that you d
 
 <!--s-->
 
-## Data Sources | Q.01
-
-You're building a model to predict the price of a house based on its location, size, and number of bedrooms. Which of the following data sources would be a great first place to look?
-
-<div class="col-wrapper">
-<div class="c1" style = "width: 60%;">
-
-<div style = "line-height: 2em;">
-&emsp;&emsp;A. Bulk Downloads <br>
-&emsp;&emsp;B. APIs <br>
-&emsp;&emsp;C. Scraping, web crawling <br>
-&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
-</div>
-
-</div>
-
-<div class="c2 col-centered" style = "width: 40%;">
-<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
-</div>
-</div>
-
-<!--s-->
-
-## Data Sources | Q.02
-
-You just built an amazing stock market forecasting model. Congrats! Now, you want to test it on real-time data. Which of the following data sources would be a great first place to look?
-
-<div class="col-wrapper">
-<div class="c1" style = "width: 60%;">
-
-<div style = "line-height: 2em;">
-&emsp;&emsp;A. Bulk Downloads <br>
-&emsp;&emsp;B. APIs <br>
-&emsp;&emsp;C. Scraping, web crawling <br>
-&emsp;&emsp;D. BYOD (Bring Your Own Data) <br>
-</div>
-
-</div>
-
-<div class="c2 col-centered" style = "width: 40%;">
-<img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="100%">
-<a>poll.ev.com/nucs</a>
-</div>
-</div>
-
-<!--s-->
-
 <div class = "header-slide">
 
 # Data Structures
@@ -301,6 +255,168 @@ My name is Jeff Fox (employee id 1234567). I'm excited to start on 1/1/2013.
 Sincerely,
 Jeff Fox
 ```
+
+<!--s-->
+
+<div class = "header-slide">
+
+# SQL Overview
+
+</div>
+
+<!--s-->
+
+### SQL Query Cheat Sheet (Part 1)
+
+### `CREATE TABLE`
+
+  ```sql
+  /* Create a table called table_name with column1, column2, and column3. */
+  CREATE TABLE table_name (
+    column1 INT PRIMARY KEY, /* Primary key is a unique identifier for each row. */
+    column2 VARCHAR(100), /* VARCHAR is a variable-length string up to 100 characters. */
+    column3 DATE /* DATE is a date type. */
+  );
+  ```
+
+### `INSERT INTO`
+
+  ```sql
+  /* Insert values into column1, column2, and column3 in table_name. */
+  INSERT INTO table_name (column1, column2, column3) VALUES (value1, value2, value3);
+  ```
+
+### `UPDATE`
+
+  ```sql
+  /* Update column1 in table_name to 'value' where column2 is equal to 'value'. */
+  UPDATE table_name SET column1 = 'value' WHERE column2 = 'value';
+  ```
+
+### `DELETE`
+
+  ```sql
+  /* Delete from table_name where column1 is equal to 'value'. */
+  DELETE FROM table_name WHERE column1 = 'value';
+  ```
+
+<!--s-->
+
+### SQL Query Cheat Sheet (Part 2)
+
+### `SELECT`
+  
+  ```sql
+  /* Select column1 and column2 from table_name.*/
+  SELECT column1, column2 FROM table_name;
+  ```
+
+### `WHERE`
+
+  ```sql
+  /* Select column1 and column2 from table_name where column1 is equal to 'value' and column2 is equal to 'value'. */
+  SELECT column1, column2 FROM table_name WHERE column1 = 'value' AND column2 = 'value';
+  ```
+
+### `ORDER BY`
+
+  ```sql
+  /* Select column1 and column2 from table_name and order by column1 in descending order. */
+  SELECT column1, column2 FROM table_name ORDER BY column1 DESC;
+  ```
+
+### `LIMIT`
+
+  ```sql
+  /* Select column1 and column2 from table_name and limit the results to 10. */
+  SELECT column1, column2 FROM table_name LIMIT 10;
+  ```
+<!--s-->
+
+### SQL Query Cheat Sheet (Part 3)
+
+### `GROUP BY`
+
+  ```sql
+  /* Select column1 and column2 from table_name and group by column1. */
+  SELECT column1, column2 FROM table_name GROUP BY column1;
+  ```
+
+### `JOIN`
+
+  ```sql
+  /* Select column1 and column2 from table1 and table2 where column1 is equal to column2. */
+  SELECT column1, column2 FROM table1 JOIN table2 ON table1.column1 = table2.column2;
+  ```
+
+### `COUNT`
+
+  ```sql
+  /* Select the count of column1 from table_name. */
+  SELECT COUNT(column1) FROM table_name;
+  ```
+
+### `SUM`
+
+  ```sql
+  /* Select the sum of column1 from table_name. */
+  SELECT SUM(column1) FROM table_name;
+  ```
+
+<!--s-->
+
+### SQL and Pandas (🔥)
+
+```python
+import pandas as pd
+import sqlite3
+
+# Create a connection to a SQLite database.
+conn = sqlite3.connect('example.db')
+
+# Load a DataFrame into the database.
+df = pd.DataFrame({'column1': [1, 2, 3], 'column2': ['a', 'b', 'c']})
+df.to_sql('table_name', conn, if_exists='replace')
+
+# Query the database.
+query = 'SELECT * FROM table_name'
+df = pd.read_sql(query, conn)
+```
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
+
+  ## SQL Challenge | Q.01
+
+  
+  Write a SQL query that selects the <span class = "code-span">name</span> and <span class = "code-span">year</span> columns from a <span class = "code-span">movies</span> table where the <span class = "code-span">year</span> is greater than 2000.
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 50%; position: absolute;">
+
+  ## SQL Challenge | Q.02
+
+  Write a SQL query that selects the <span class = "code-span">name</span> and <span class = "code-span">year</span> columns from a <span class = "code-span">movies</span> table where the <span class = "code-span">year</span> is greater than 2000 and the <span class = "code-span">genre</span> is equal to <span class = "code-span">comedy</span>.
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
 
 <!--s-->
 
@@ -489,11 +605,7 @@ Canvas Assignment Link: P.01
 ## P.01 | Creating a Group
 
 ### **Group Creation**
-Please form groups of 6. You can create a group on Canvas using this [[link]].
-
-1. Click on the "People" tab on the left-hand side.
-2. Click on the "Groups" tab.
-3. Click on the "Create Group" button OR "Join Group" button.
+Please form groups of 4. You can create a group on Canvas using this [[link](https://canvas.northwestern.edu/courses/216743/groups)]. Click on the "Create Group" button OR "Join Group" button.
 
 ### **Group Name**
 Your group name can be anything you like, but it should be unique.
@@ -514,7 +626,9 @@ Your proposal should include:
 3. **Project Title**: The title of your project.
 4. **Project Description**: A brief description of your project.
 5. **Data Source**: Where you plan to get your data.
-6. **Project Goals**: What you hope to achieve, or what findings you expect with your project.
+6. **Project Goals**:
+    - What are you trying to accomplish?
+    - What are the deliverables? Are you creating an app, a report, a model, etc.?
 
 <!--s-->
 
