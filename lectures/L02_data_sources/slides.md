@@ -30,7 +30,7 @@ revealOptions:
 
   # Welcome to MSAI 339.
   ## Please check in using PollEverywhere.
-  Scan the QR code or go to [pollev.com/NUCS](https://pollev.com/NUCS)
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
 
   </div>
   </div>
@@ -335,13 +335,6 @@ Jeff Fox
 
 ### SQL Query Cheat Sheet (Part 3)
 
-### `GROUP BY`
-
-  ```sql
-  /* Select column1 and column2 from table_name and group by column1. */
-  SELECT column1, column2 FROM table_name GROUP BY column1;
-  ```
-
 ### `JOIN`
 
   ```sql
@@ -349,11 +342,21 @@ Jeff Fox
   SELECT column1, column2 FROM table1 JOIN table2 ON table1.column1 = table2.column2;
   ```
 
+### `GROUP BY`
+
+  ```sql
+  /* Select column1 and column2 from table_name and group by column1. */
+  SELECT column1, column2 FROM table_name GROUP BY column1;
+  ```
+
 ### `COUNT`
 
   ```sql
   /* Select the count of column1 from table_name. */
   SELECT COUNT(column1) FROM table_name;
+
+  /* Group by column2 and select the count of column1 from table_name. */
+  SELECT column2, COUNT(column1) FROM table_name GROUP BY column2;
   ```
 
 ### `SUM`
@@ -361,6 +364,9 @@ Jeff Fox
   ```sql
   /* Select the sum of column1 from table_name. */
   SELECT SUM(column1) FROM table_name;
+
+  /* Group by column2 and select the sum of column1 from table_name. */
+  SELECT column2, SUM(column1) FROM table_name GROUP BY column2;
   ```
 
 <!--s-->
@@ -417,6 +423,18 @@ df = pd.read_sql(query, conn)
   <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
   </div>
 </div>
+
+<!--s-->
+
+## Practice Your SQL!
+
+The majority of data science interviews will have a SQL component. It's a good idea to practice your SQL skills. Here are a few resources to get you started:
+
+- ### [SQLZoo](https://sqlzoo.net/)
+- ### [W3Schools](https://www.w3schools.com/sql/)
+- ### [LeetCode](https://leetcode.com/problemset/database/)
+- ### [HackerRank](https://www.hackerrank.com/domains/sql)
+- ### [SQL Practice](https://www.sql-practice.com/)
 
 <!--s-->
 
@@ -582,9 +600,11 @@ Handling outliers should be done on a case-by-case basis. Don't throw away data 
 ## Data Cleaning | Keep in Mind
 
 - Cleaning your data is an iterative process.
-  - **Hot tip**: Focus on making your data preprocessing *fast*. You will be doing it a lot, and you'll want to be able to iterate quickly. Look into libraries like <span class="code-span">dask</span>, <span class="code-span">pyspark</span>, and <span class="code-span">ray</span> for large datasets.
+  - **Hot tip**: 🔥 Focus on making your data preprocessing *fast*. You will be doing it a lot, and you'll want to be able to iterate quickly. Look into libraries like <span class="code-span">dask</span>, <span class="code-span">pyspark</span>, and <span class="code-span">ray</span> for large datasets.
+  - **Hot tip**: 🔥 Platforms like DataFlow and BigQuery automate a lot of minutia and give you parallelization out-of-the-box.
+
 - Data cleaning is often planned with visualization. 
-  - Always look at the data. Always. We'll go over plotting approaches for L.03.
+  - Always look at the data. Always. We'll go over systematic EDA approaches in L.03.
 - Data cleaning can fix modeling problems.
   - Your first assumption should always be "something is wrong with the data", not "I should try another model".
 - Data cleaning is not a one-size-fits-all process, and often requires domain expertise.
@@ -605,7 +625,7 @@ Canvas Assignment Link: P.01
 ## P.01 | Creating a Group
 
 ### **Group Creation**
-Please form groups of 4. You can create a group on Canvas using this [[link](https://canvas.northwestern.edu/courses/216743/groups)]. Click on the "Create Group" button OR "Join Group" button.
+Please form groups of **4**. You can create a group on Canvas using this [[link](https://canvas.northwestern.edu/courses/216743/groups)]. Click on the "Create Group" button OR "Join Group" button.
 
 ### **Group Name**
 Your group name can be anything you like, but it should be unique.

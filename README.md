@@ -13,7 +13,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | Lecture | Date | Topic | Homework Due | Project Milestone Due |
 | --- | --- | --- | --- | --- |
 | 1 | 09.24.2024 | [Course Overview](https://drc-cs.github.io/FALL24-MSAI339/lectures/L01_overview/#/) | | |
-| 2 | 09.26.2024 | Data Collection and Structure | | |
+| 2 | 09.26.2024 | [Data Collection and Structure](https://drc-cs.github.io/FALL24-MSAI339/lectures/L02_data_sources/#/) | | |
 | 3 | 10.01.2024 | Exploratory Data Analysis | [H.01](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H01) | |
 | 4 | 10.03.2024 | Correlation, Association, and Simpson's Paradox | | |
 | 5 | 10.08.2024 | A/B Testing and Statistical Inference | | P.01 |
