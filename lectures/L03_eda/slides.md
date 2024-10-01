@@ -12,7 +12,7 @@ revealOptions:
   <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
 
   # Data Science
-  ## L.02 | Data Sources
+  ## L.03 | Exploratory Data Analysis
 
   </div>
   </div>
