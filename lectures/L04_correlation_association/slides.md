@@ -90,7 +90,7 @@ The covariance between two variables \(X\) and \(Y\) can be defined as:
 $ \text{cov}(X, Y) = \frac{\sum_{i=1}^n (x_i - \bar{x})(y_i - \bar{y})}{n} $
 </div>
 
-And it's really just a generalization of the variance to two variables:
+And it's really just a generalization of variance (one variable):
 
 <div class="col-centered">
 
