@@ -15,7 +15,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 1 | 09.24.2024 | [Course Overview](https://drc-cs.github.io/FALL24-MSAI339/lectures/L01_overview/#/) | | |
 | 2 | 09.26.2024 | [Data Collection and Structure](https://drc-cs.github.io/FALL24-MSAI339/lectures/L02_data_sources/#/) | | |
 | 3 | 10.01.2024 | [Exploratory Data Analysis](https://drc-cs.github.io/FALL24-MSAI339/lectures/L03_eda/#/) | [H.01](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H01) | |
-| 4 | 10.03.2024 | Correlation, Association, and Simpson's Paradox | | |
+| 4 | 10.03.2024 | [Correlation, Association, and Simpson's Paradox](https://drc-cs.github.io/FALL24-MSAI339/lectures/L04_correlation_association/#/) | | |
 | 5 | 10.08.2024 | A/B Testing and Statistical Inference | | P.01 |
 | 6 | 10.10.2024 | Data Preprocessing | | |
 | 7 | 10.15.2024 | Supervised Machine Learning I <br> *KNN / Logistic Regression* | H.02 | |
