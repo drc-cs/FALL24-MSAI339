@@ -241,7 +241,7 @@ Recall that correlation measures the strength of a linear relationship between t
 
 **Simpson's Paradox** is a situation where a relationship is reversed when the data is split into subgroups.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/1*8tP_5zRKNAyVSeexu7RJZg.png">
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*8tP_5zRKNAyVSeexu7RJZg.png" style = "border-radius: 15px; opacity: 0.6;">
 
 <!--s-->
 
