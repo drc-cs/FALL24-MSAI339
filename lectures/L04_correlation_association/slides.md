@@ -147,11 +147,10 @@ $r = \frac{\sum_i (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_i (x_i - \bar{x})^2
 
 Pearson's correlation coefficient is a great method to measure the strength of a linear relationship between two variables. However, it has some limitations:
 
-- Sensitive to outliers
-- It only measures linear relationships
-- It is not robust to non-normality
+- Sensitive to outliers.
+- It only measures linear relationships.
 
-If your data is not normally distributed, your relationship is not linear, or you have big outliers, you may want to consider another correlation method (e.g., Spearman's rank correlation coefficient).
+If your relationship is not linear, or you have big outliers, you may want to consider another correlation method (e.g., Spearman's rank correlation coefficient).
 
 <!--s-->
 
