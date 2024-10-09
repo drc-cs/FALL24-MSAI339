@@ -707,7 +707,7 @@ fig = px.line(x=x, y=y)
 fig.update_layout(title='t-distribution with 4 degrees of freedom', template = "plotly_white")
 ```
 
-<img src="https://storage.googleapis.com/cs326-bucket/t-distribution.png">
+<img src="https://storage.googleapis.com/slide_assets/p-value.png">
 
 </div>
 <div class="c2" style = "width: 30%; font-size: 0.6em;">
