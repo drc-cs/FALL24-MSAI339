@@ -134,7 +134,7 @@ You can often consider feature engineering as a way to add new columns to your d
 <div class = "col-wrapper">
 <div class="c1" style = "width: 50%;  font-size: 0.8em;">
 
-### ML-Ready:
+### Processed:
 
 | Student ID | Homework | Exam 1 | Exam 2 | Final |
 |------------|----------|--------|--------|-------|
@@ -146,7 +146,7 @@ You can often consider feature engineering as a way to add new columns to your d
 </div>
 <div class="c2" style = "width: 50%;  font-size: 0.8em;">
 
-### ML-Ready + Engineered Feature:
+### Processed + Engineered Feature:
 
 | Student ID | Homework | Exam 1 | Exam 2 | Average Exam Score | Final |
 |------------|----------|--------|--------|---------|-------|
