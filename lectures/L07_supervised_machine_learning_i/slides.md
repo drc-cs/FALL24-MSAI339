@@ -456,7 +456,7 @@ In linear regression, we can calculate the optimal coefficients $\beta$ directly
 
 Instead, we use gradient descent to minimize the cost function. Gradient descent is an optimization algorithm that iteratively updates the parameters to minimize the cost function, and forms the basis of many machine learning algorithms.
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3BIDGdKjh88SLF0YTBz5oA.png" width="600" style="margin: 0 auto; display: block;">
+<img src="https://machinelearningspace.com/wp-content/uploads/2023/01/Gradient-Descent-Top2-1024x645.png" width="600" style="margin: 0 auto; display: block;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Source: Medium</p>
 
 <!--s-->
@@ -497,7 +497,7 @@ Similar to linear regression -- if we want to include a bias term, we can add a 
 </div>
 <div class="c2 col-centered" style = "width: 50%">
 
-<img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3BIDGdKjh88SLF0YTBz5oA.png" width="400" style="margin: 0 auto; display: block;">
+<img src="https://machinelearningspace.com/wp-content/uploads/2023/01/Gradient-Descent-Top2-1024x645.png" width="400" style="margin: 0 auto; display: block;">
 <p style="text-align: center; font-size: 0.6em; color: grey;">Source: Medium</p>
 
 </div>
