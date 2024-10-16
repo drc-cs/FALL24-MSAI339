@@ -43,7 +43,7 @@
 }
 
 .backgrounds::after {
-  content: "Northwestern University | MSAI 339 | Do Not Share"; /* The text to display */
+  content: "Northwestern University | MSAI 339 | © NUCS 2024 | Do Not Share"; /* The text to display */
   position: absolute; /* Position it absolutely within the .backgrounds element */
   bottom: 10px; /* Distance from the bottom, adjust as needed */
   left: 50%; /* Center horizontally by setting the left to 50% */
