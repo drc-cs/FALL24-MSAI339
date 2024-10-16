@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 def binarize(labels: list[str]) -> np.array:
     """Binarize the labels.
 
-    Binarize the labels such that "Chinstrap" is 1 and "Adelie" is 0.
+    Binarize the labels such that "Chinstrap" is 1 and "Adelie" is 0. 
 
     Args:
         labels (list[str]): The labels to binarize.
