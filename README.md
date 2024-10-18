@@ -21,7 +21,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 7 | 10.15.2024 | [Supervised Machine Learning I](https://drc-cs.github.io/FALL24-MSAI339/lectures/L07_supervised_machine_learning_i/#/) <br> *KNN / Logistic Regression* | [H.02](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H02) | |
 | 8 | 10.17.2024 | [Supervised Machine Learning II](https://drc-cs.github.io/FALL24-MSAI339/lectures/L08_supervised_machine_learning_ii/#/) <br>  *ROC-AUC / K-Fold / Multi-Class* | | |
 | 9 | 10.22.2024 | Supervised Machine Learning III <br> *Decision Trees / Ensembles* | | |
-| 10 | 10.24.2024 | Unsupervised Machine Learning | [H.03](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H03 | |
+| 10 | 10.24.2024 | Unsupervised Machine Learning | [H.03](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H03) | |
 | 11 | 10.29.2024 | Recommendation Modeling | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
 | 13 | 11.05.2024 | Project 1-on-1 | H.04 | |
