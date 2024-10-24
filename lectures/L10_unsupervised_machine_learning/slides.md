@@ -318,6 +318,8 @@ class Tree:
 
 <!--s-->
 
+<div style = "font-size: 0.8em;">
+
 # Industry Application
 
 ### Scenario
@@ -333,7 +335,6 @@ Segment customers based on their purchase history using unsupervised machine lea
 - **Input**: Customer transaction data (e.g., purchase amount, purchase frequency).
 - **Output**: Customer segments based on purchasing behavior.
 
-
 ### Goal
 
 Identify groups of customers with similar purchasing behavior using unsupervised machine learning techniques.
@@ -341,6 +342,8 @@ Identify groups of customers with similar purchasing behavior using unsupervised
 ### Plan
 
 Where do you start?
+
+</div>
 
 <!--s-->
 
