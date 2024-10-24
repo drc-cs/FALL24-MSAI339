@@ -21,15 +21,15 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 7 | 10.15.2024 | [Supervised Machine Learning I](https://drc-cs.github.io/FALL24-MSAI339/lectures/L07_supervised_machine_learning_i/#/) <br> *KNN / Logistic Regression* | [H.02](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H02) | |
 | 8 | 10.17.2024 | [Supervised Machine Learning II](https://drc-cs.github.io/FALL24-MSAI339/lectures/L08_supervised_machine_learning_ii/#/) <br>  *ROC-AUC / K-Fold / Multi-Class* | | |
 | 9 | 10.22.2024 | [Supervised Machine Learning III](https://drc-cs.github.io/FALL24-MSAI339/lectures/L09_supervised_machine_learning_iii/#/) <br> *Decision Trees / Ensembles* | | |
-| 10 | 10.24.2024 | Unsupervised Machine Learning | [H.03](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H03) | |
+| 10 | 10.24.2024 | Unsupervised Machine Learning](https://drc-cs.github.io/FALL24-MSAI339/lectures/L10_unsupervised_machine_learning/#/) | [H.03](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H03) | |
 | 11 | 10.29.2024 | Recommendation Modeling | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
 | 13 | 11.05.2024 | Project 1-on-1 | H.04 | |
 | 14 | 11.07.2024 | Time Series Analysis | | |
-| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
+| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | H.04 | |
 | 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
-| 17 | 11.19.2024 | Quiz Review | H.05 | |
-| 18 | 11.21.2024 | Storytelling and Ethics | | |
+| 17 | 11.19.2024 | Quiz Review | | |
+| 18 | 11.21.2024 | Storytelling and Ethics | H.05 | |
 | 19 | 11.26.2024 | Quiz | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
 | 21 | 12.05.2024 | Project Presentation  | | P.03 |
