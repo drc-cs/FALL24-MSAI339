@@ -95,7 +95,7 @@ In today’s lecture, we will explore two common methods for building recommenda
 2. Collaborative Filtering
     - User-User
     - Item-Item
-    - Filling in the Sparse Matrix
+    - Filling in Missing Values in the Matrix
     - Pros and Cons
 
 <!--s-->
@@ -358,16 +358,16 @@ Item-Item Collaborative Filtering is based on the idea that users who each liked
 
 <!--s-->
 ## Collaborative Filtering
-### Filling in the Sparse Matrix
+### Filling in the User-Item Matrix
 
-The user-item matrix is often sparse, meaning that most of the entries are missing. This is because users typically only interact with a small subset of items. This presents a problem with finding nearest neighbors. 
+The user-item matrix is often missing many values. This is because users typically only interact with a small subset of items. This presents a problem with finding nearest neighbors. 
 
 So, how do we fill in the gaps?
 
 <!--s-->
 
 ## Collaborative Filtering
-### Filling in the Sparse Matrix with the Scale's Mean
+### Filling in the User-Item Matrix with the Scale's Mean
 
 A simple way to fill in the gaps in the user-item matrix is to use the scale's mean. Typically you will center the data on the mean of the scale, and fill in the gaps with zero.
 
@@ -403,7 +403,7 @@ In the example below, the scale is from 1-5. The mean of the scale is 3. So, we 
 
 ## Collaborative Filtering
 
-### Filling in the Sparse Matrix with Matrix Factorization
+### Filling in the User-Item Matrix with Matrix Factorization
 
 Matrix Factorization is a technique to break down a matrix into the product of multiple matrices. It is used in collaborative filtering to estimate the missing values in the user-item matrix, and is often performed with alternating least squares (ALS).
 
@@ -469,7 +469,7 @@ Where:
 | Pros | Cons |
 | --- | --- |
 | Can recommend items that the user has not seen before | Cold-start problem for both users and items |
-| Can recommend items that are popular among similar users | Sparsity of the user-item matrix |
+| Can recommend items that are popular among similar users | Missing values in the user-item matrix |
 
 <!--s-->
 
@@ -482,7 +482,7 @@ Which of the following is an advantage of **user-user collaborative** filtering?
 <div class='c1' style = 'width: 70%; display: flex; align-items: center; flex-direction: column; margin-top: 2em'>
 <div style = 'line-height: 2em; font-size: 0.8em;'>
 &emsp;A. Can recommend very different items that the user has not seen before. <br>
-&emsp;B. Tends to have a dense matrix. <br>
+&emsp;B. Tends to have a full matrix. <br>
 &emsp;C. No need for data on other users. <br>
 &emsp;D. All of the above. <br>
 </div>
