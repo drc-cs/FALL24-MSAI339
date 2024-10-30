@@ -411,10 +411,10 @@ Involves predicting multiple labels for a given sample.
 
 ### 10.31.2024
 
-- Crispy
-- DataCats
-- Gryffindor
-- HPS
+- Crispy [3:30 - 3:50]
+- DataCats [3:50 - 4:10]
+- Gryffindor [4:10 - 4:30]
+- HPS [4:30 - 4:50]
 
 </div>
 
@@ -422,10 +422,10 @@ Involves predicting multiple labels for a given sample.
 
 ### 11.05.2024
 
-- JDNH
-- One two three
-- Outliers
-- Powerpuff Girls
+- JDNH [3:30 - 3:50]
+- One two three [3:50 - 4:10]
+- Outliers [4:10 - 4:30]
+- Powerpuff Girls [4:30 - 4:50]
 
 </div>
 </div>
