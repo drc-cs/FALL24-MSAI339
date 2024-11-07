@@ -71,6 +71,21 @@ revealOptions:
 
 <!--s-->
 
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+
+  # Industry Applications
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 40%; ">
+  <img src="https://storage.googleapis.com/slide_assets/crystal_ball.png" style="margin: 0 auto; display: block;">
+  </div>
+</div>
+
+<!--s-->
+
 ## Agenda
 
 Today we're going to talk about time series analysis, specifically building an intution for forecasting models. We'll cover the following topics:
