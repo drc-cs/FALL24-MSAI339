@@ -24,12 +24,12 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 10 | 10.24.2024 | [Unsupervised Machine Learning](https://drc-cs.github.io/FALL24-MSAI339/lectures/L10_unsupervised_machine_learning/#/) | [H.03](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H03) | |
 | 11 | 10.29.2024 | [Recommendation Modeling](https://drc-cs.github.io/FALL24-MSAI339/lectures/L11_recommendation_modeling/#/) | | |
 | 12 | 10.31.2024 | Project 1-on-1 | | P.02 |
-| 13 | 11.05.2024 | Project 1-on-1 | H.04 | |
-| 14 | 11.07.2024 | Time Series Analysis | | |
-| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | H.04 | |
+| 13 | 11.05.2024 | Project 1-on-1 | | |
+| 14 | 11.07.2024 | [Time Series Analysis](https://drc-cs.github.io/FALL24-MSAI339/lectures/L14_time_series_analysis/#/) | | |
+| 15 | 11.12.2024 | Natural Language Processing <br> *Text Preprocessing* | | |
 | 16 | 11.14.2024 | Natural Language Processing <br> *Text Generation* | | |
-| 17 | 11.19.2024 | Quiz Review | | |
-| 18 | 11.21.2024 | Storytelling and Ethics | H.05 | |
+| 17 | 11.19.2024 | Quiz Review | [H.04](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H04) | |
+| 18 | 11.21.2024 | Storytelling and Ethics | | |
 | 19 | 11.26.2024 | Quiz | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
 | 21 | 12.05.2024 | Project Presentation  | | P.03 |
