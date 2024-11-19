@@ -28,7 +28,7 @@ This schedule is tentative and may change as the course progresses. Click on lin
 | 14 | 11.07.2024 | [Time Series Analysis](https://drc-cs.github.io/FALL24-MSAI339/lectures/L14_time_series_analysis/#/) | | |
 | 15 | 11.12.2024 | [Natural Language Processing](https://drc-cs.github.io/FALL24-MSAI339/lectures/L15_natural_language_processing_i/#/) <br> *Classical NLP* | | |
 | 16 | 11.14.2024 | [Natural Language Processing](https://drc-cs.github.io/FALL24-MSAI339/lectures/L16_natural_language_processing_ii/#/) <br> *Modern NLP* | | |
-| 17 | 11.19.2024 | Quiz Review | [H.04](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H04) | |
+| 17 | 11.19.2024 | [Oral Exam Review](https://drc-cs.github.io/FALL24-MSAI339/lectures/L17_quiz_review/#/) | [H.04](https://github.com/drc-cs/FALL24-MSAI339/tree/main/homeworks/H04) | |
 | 18 | 11.21.2024 | Storytelling and Ethics | | |
 | 19 | 11.26.2024 | Oral Exams | | |
 | 20 | 12.03.2024 | Project Presentation | | P.03 - P.04 |
