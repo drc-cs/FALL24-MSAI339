@@ -525,21 +525,35 @@ You can collect more data on houses with swimming pools to improve the accuracy 
 
 <!--s-->
 
+<div class = "header-slide">
+
 ## Effective Networking
 
-[TBD]
+</div>
 
 <!--s-->
+
+<div class = "header-slide">
 
 ## Monetizing Your Curiosity
 
-[TBD]
+</div>
 
 <!--s-->
 
+<div class = "header-slide">
+
 ## Building a Personal Brand
 
-[TBD]
+</div>
+
+<!--s-->
+
+<div class = "header-slide">
+
+## Jenny Q/A
+
+</div>
 
 <!--s-->
 
