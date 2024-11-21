@@ -19,7 +19,7 @@ revealOptions:
 
 </div>
 
-<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 20%;">
+<div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%;">
 
 <iframe src="https://lottie.host/embed/02b9bf18-7fb2-454b-b5d4-5196357a8ecf/YTCoN4ouWw.json"></iframe>
 
@@ -34,6 +34,34 @@ revealOptions:
 # L.18 | Storytelling and Ethics
 
 </div>
+
+<!--s-->
+
+<div class = "col-wrapper">
+  <div class="c1 col-centered">
+  <div style="font-size: 0.8em; left: 0; width: 70%; position: absolute;">
+
+  # Welcome to MSAI 339.
+  ## Please check in using PollEverywhere.
+  Scan the QR code or go to [pollev.com/nucs](https://pollev.com/nucs)
+
+  </div>
+  </div>
+  <div class="c2 col-centered" style = "bottom: 0; right: 0; width: 100%; padding-top: 5%">
+  <img src="https://storage.googleapis.com/slide_assets/PollEverywhere.png" width="50%">
+  </div>
+</div>
+
+<!--s-->
+
+## Announcements
+
+- P.04 (Written Report) will be due on 12.03.2024.
+    - 2 Pages Max (Single-Spaced).
+    - Figures included.
+- P.03 (Presentations) will take place 12.03.2024 / 12.05.2024.
+    - **Everyone** must present.
+- Final quiz will take place this upcoming Tuesday, 11.26.2024.
 
 <!--s-->
 
